@@ -35,7 +35,7 @@ class TravelSummary implements travelSummaryInterface {
     /**
      * This is a recursive sorting function
      * 1) First it will take one card as a sorted card
-     * 2) It will loop throught the cards and sort the cards based on the first card
+     * 2) It will loop thought the cards and sort the cards based on the first card
      * 3) At the end of the loop there will be an array of sorted cards and may be a set of cards that could not find their sorted position
      * 4)The sort function will be called again with the unsorted cards so that they can find their sorted position in the sorted cards list.
      * 5) This process will go on till all the cards are sorted
