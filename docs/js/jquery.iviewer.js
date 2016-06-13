@@ -956,7 +956,7 @@ $.ui.iviewer.ImageObject = function(do_anim) {
     this.orig_height = this._dimension('orig', 'height'),
 
     /**
-     * Setter for  X coordinate. If image is rotated we need to additionaly shift an
+     * Setter for  X coordinate. If image is rotated we need to additionally shift an
      *     image to map image coordinate to the visual position.
      *
      * @param {number} val Coordinate value.
@@ -974,7 +974,7 @@ $.ui.iviewer.ImageObject = function(do_anim) {
         });
 
     /**
-     * Setter for  Y coordinate. If image is rotated we need to additionaly shift an
+     * Setter for  Y coordinate. If image is rotated we need to additionally shift an
      *     image to map image coordinate to the visual position.
      *
      * @param {number} val Coordinate value.
